@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import 'vendor/normalize';
+
+.dropUpload > div,
+.dropUpload > div > input {
+	width: 100% !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.dropUpload > div:hover {
+	cursor: pointer;
+}
+
+.itemUpload .item {
+	margin: 25px auto;
+}
